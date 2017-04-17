@@ -14,7 +14,7 @@ Time spent: **7** hours spent in total
 ### Required: Demonstration
 
 - [x] A basic writeup of the attack (what offensive tools were used, what specifically was detected by the honeypot)
-  
+  - For the attack itself, I used nmap. Nmap, or network mapper, is a security scanner used to discover hosts and services on a network. It maps the network by sending packets and analyzing responses. In the server VM, I installed nmap using apt  (sudo apt-get install -y nmap). Once installed, I ran a scan against the honeypot VM. This is seen in my gif walkthrough. Upon running and returning to the once empty Attacks page on the console, evidence of the scan is now visible. 
 - [x] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
 - [x] A walkthrough of the attack being conducted
       <img src='http://i.imgur.com/wF6NoaD.gif' title='Gif Walkthrough' width='' alt='Gif Walkthrough' />
